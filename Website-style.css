@@ -1,3 +1,38 @@
+
 body{
-    background-color: green;
+    max-width: 90%;
+    margin: auto;
+    background-color: RGB(245, 236, 135);
+}
+
+.title{
+    height: 200px;
+    margin: 2em;
+    background-color:black;
+    background-image: linear-gradient(to bottom right, gray, white);
+}
+.title h1{
+    color: brown;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    border: 2px solid red;
+    display: inline;
+}
+.navbar li{
+    display: inline;
+}
+
+.navbar{
+    height: 50px;
+    background-color: black;
+}
+
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
