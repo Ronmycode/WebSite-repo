@@ -1,23 +1,39 @@
+/*palette
+RGB (124, 175, 196) Dark Blue Sky;
+RGB (89, 149, 237) United nation blue;
+RGB (255, 173, 5) chinese yellow;
+RGB (252, 255, 75) maximum yellow;
+RGB (4, 67, 137) yale blue;*/
+
+
+.content{
+    display: inline-block;
+}
 
 body{
-    max-width: 90%;
-    margin: auto;
-    background-color: RGB(245, 236, 135);
+    background-color: RGB(124, 175, 196);
 }
 
-.title{
-    height: 200px;
-    margin: 2em;
-    background-color:black;
-    background-image: linear-gradient(to bottom right, gray, white);
+.background-effect{
+    background-image: url("C:/Users/Ron/Documents/GoogleDrive/Git-mine/WebSite-repo/BG.JPG");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(40%);
 }
-.title h1{
-    color: brown;
+
+.banner{
     text-align: center;
-    justify-content: center;
-    font-size: 50px;
-    border: 2px solid red;
-    display: inline;
+}
+
+.title h1{
+    color: RGB(4, 67, 137);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 90px;
+    display: inline-flex;
+    border: 2px solid orange;   
 }
 .navbar li{
     display: inline;
@@ -33,6 +49,6 @@ body{
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
     font-size: 17px;
 }
