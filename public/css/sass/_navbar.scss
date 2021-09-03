@@ -1,16 +1,17 @@
 nav{
     background-color: orangered;
     position: fixed;
-    margin: 1rem;
     top: 0;
-    left: 5rem;
-    width: 90%;
+    left: 0;
+    width: 100vw;
     height: 15%;
-    
+
 
     & .nav-bar{
-
+        
         & .nav__item{
+            display: flexbox;
+            align-items: center;
             display: inline-block;
             font-size: 2rem;
             text-transform: uppercase;
@@ -18,7 +19,7 @@ nav{
             font-weight: 300;
 
             & a.nav-link:hover{
-                color: $secondaryColor;
+                color: $primaryColor;
                 align-self: center;
             }
         }
