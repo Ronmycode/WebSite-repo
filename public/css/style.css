@@ -9,13 +9,17 @@ a {
 nav {
   background-color: orangered;
   position: fixed;
+  margin: 1rem;
   top: 0;
-  left: 0; }
-  nav .nav-bar .nav-item {
+  left: 5rem;
+  width: 90%;
+  height: 15%; }
+  nav .nav-bar .nav__item {
     display: inline-block;
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
     font-weight: 300; }
-    nav .nav-bar .nav-item:hover {
-      color: brown; }
+    nav .nav-bar .nav__item a.nav-link:hover {
+      color: brown;
+      align-self: center; }

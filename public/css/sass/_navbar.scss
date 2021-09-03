@@ -1,20 +1,25 @@
 nav{
     background-color: orangered;
     position: fixed;
+    margin: 1rem;
     top: 0;
-    left: 0;
+    left: 5rem;
+    width: 90%;
+    height: 15%;
+    
 
     & .nav-bar{
 
-        & .nav-item{
+        & .nav__item{
             display: inline-block;
             font-size: 2rem;
             text-transform: uppercase;
             padding: 2rem 0;
             font-weight: 300;
 
-            &:hover{
+            & a.nav-link:hover{
                 color: $secondaryColor;
+                align-self: center;
             }
         }
     }
