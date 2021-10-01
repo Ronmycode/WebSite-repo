@@ -1,27 +1,25 @@
-nav{
-    background-color: orangered;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 15%;
+// nav{
+//     background-color: black;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 15%;
 
 
-    & .nav-bar{
+//     & .nav-bar{
         
-        & .nav__item{
-            display: flexbox;
-            align-items: center;
-            display: inline-block;
-            font-size: 2rem;
-            text-transform: uppercase;
-            padding: 2rem 0;
-            font-weight: 300;
+//         & .nav__item{
+//             display: inline-block;
+//             font-size: 2rem;
+//             text-transform: uppercase;
+//             padding: 2rem 0;
+//             font-weight: 300;
 
-            & a.nav-link:hover{
-                color: $primaryColor;
-                align-self: center;
-            }
-        }
-    }
-}    
+//             & a.nav-link:hover{
+//                 color: $primaryColor;
+//                 align-self: center;
+//             }
+//         }
+//     }
+// }    

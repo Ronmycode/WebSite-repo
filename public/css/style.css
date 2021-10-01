@@ -7,15 +7,13 @@ a {
   text-decoration: none; }
 
 nav {
-  background-color: orangered;
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 15%; }
   nav .nav-bar .nav__item {
-    display: flexbox;
-    align-items: center;
     display: inline-block;
     font-size: 2rem;
     text-transform: uppercase;
